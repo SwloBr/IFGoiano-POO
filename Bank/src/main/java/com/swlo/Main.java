@@ -12,6 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         double value;
         Login loginMethods = new Login();
         ClearConsole();
