@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Bank" />
     <file type="web" url="file://$PROJECT_DIR$/Bank2" />
+    <file type="web" url="file://$PROJECT_DIR$/CarRental" />
     <file type="web" url="file://$PROJECT_DIR$/Library" />
     <file type="web" url="file://$PROJECT_DIR$/SuperBank" />
   </component>

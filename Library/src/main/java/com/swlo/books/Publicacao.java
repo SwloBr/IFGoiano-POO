@@ -2,15 +2,20 @@ package com.swlo.books;
 
 import com.swlo.books.data.Author;
 import com.swlo.books.data.Editor;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 
 public abstract class Publicacao{
+
+
+
     private final String title;
     private final ArrayList<Author> authorName;
     private ArrayList<String> references;
@@ -71,3 +76,4 @@ public abstract class Publicacao{
     }
 
 }
+

@@ -2,8 +2,13 @@ package com.swlo.books;
 
 import com.swlo.books.data.Author;
 import com.swlo.books.data.Editor;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+
+
 
 public class Artigos extends Publicacao{
 
@@ -27,5 +32,10 @@ public class Artigos extends Publicacao{
     @Override
     public double value() {
         return 0.5;
+    }
+
+    @Override
+    public String getAuthorName(int i) {
+        return super.getAuthorName(i);
     }
 }
